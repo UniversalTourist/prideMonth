@@ -63,25 +63,3 @@ emojis <- regex_left_join(tidyTweetPride, dico, by = c(text = "Native")) %>%
   mutate(num = 1:15)
 
 #readr::write_csv(emojis, path = "emojisFreq.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
